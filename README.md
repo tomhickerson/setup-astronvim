@@ -32,10 +32,10 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
-#### A few words to the uninitiated
+#### A few words to the uninitiated (and Windows users)
 
-If you are installing from Windows you may need to create the nvim directory yourself.  It should be located in your AppData directory, as nvim points out in the initial help file.
+If you are installing from Windows you may need to create the ```nvim``` directory yourself.  It should be located in your ```AppData``` directory, as nvim points out in the initial help file.  This will look something like ```C:\Users\<username>\AppData\Local\nvim```.  There may already be a ```nvim-data``` folder present.
 
-You also may need to run this in powershell, and/or a custom shell like [alacritty](https://github.com/alacritty/alacritty).
+Also it's cool to run nvim in Powershell, and/or a custom shell like [alacritty](https://github.com/alacritty/alacritty).
 
-You also may need to install a gcc compiler to get treesitter to work [like in this thread](https://www.reddit.com/r/neovim/comments/14oozmu/neovim_cant_find_c_compiler/).  
+Certain libraries like treesitter will require a GCC compiler to run.  You may install GCC to get treesitter to work [like this thread](https://www.reddit.com/r/neovim/comments/14oozmu/neovim_cant_find_c_compiler/) or [like in this set of instructions](https://code.visualstudio.com/docs/cpp/config-mingw#_installing-the-mingww64-toolchain).  

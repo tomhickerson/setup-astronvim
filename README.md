@@ -40,4 +40,4 @@ Also it's cool to run nvim in Powershell, and/or a custom shell like [alacritty]
 
 Certain libraries like ```treesitter``` will require a GCC compiler to run.  You may install GCC to get these libraries to work [like this thread](https://www.reddit.com/r/neovim/comments/14oozmu/neovim_cant_find_c_compiler/) or [like in this set of instructions](https://code.visualstudio.com/docs/cpp/config-mingw#_installing-the-mingww64-toolchain) with the download from [MSYS2](https://www.msys2.org/).  
 
-You will also have some problems with Mason.nvim, when you can't download the correct files for ```jdtls```.  It's best to update the ```config.lua``` file located under ```%APPDATA%\Local\nvim-data\lazy\nvim-java\lua\java\config.lua``` and update the version there to the latest available, like ```v1.54.0```, for example.
+You will also have some problems with Mason.nvim, when you can't download the correct files for ```jdtls```.  It's best to update the ```config.lua``` file located under ```%APPDATA%\Local\nvim-data\lazy\nvim-java\lua\java\config.lua``` and set the version there to the latest available, like ```v1.54.0```, for example.

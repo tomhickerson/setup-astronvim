@@ -36,6 +36,8 @@ nvim
 
 If you are installing from Windows you may need to create the ```nvim``` directory yourself.  It should be located in your ```AppData``` directory, as nvim points out in the initial help file.  This will look something like ```C:\Users\<username>\AppData\Local\nvim```.  There may already be a ```nvim-data``` folder present.
 
-Also it's cool to run nvim in Powershell, and/or a custom shell like [alacritty](https://github.com/alacritty/alacritty).
+Also it's cool to run nvim in Powershell, and/or a custom shell like [alacritty](https://github.com/alacritty/alacritty).  Just make sure you have the most up-to-date java libraires declared in your ```JAVA_HOME``` directory. 
 
-Certain libraries like treesitter will require a GCC compiler to run.  You may install GCC to get treesitter to work [like this thread](https://www.reddit.com/r/neovim/comments/14oozmu/neovim_cant_find_c_compiler/) or [like in this set of instructions](https://code.visualstudio.com/docs/cpp/config-mingw#_installing-the-mingww64-toolchain).  
+Certain libraries like ```treesitter``` will require a GCC compiler to run.  You may install GCC to get these libraries to work [like this thread](https://www.reddit.com/r/neovim/comments/14oozmu/neovim_cant_find_c_compiler/) or [like in this set of instructions](https://code.visualstudio.com/docs/cpp/config-mingw#_installing-the-mingww64-toolchain) with the download from [MSYS2](https://www.msys2.org/).  
+
+You will also have some problems with Mason.nvim, when you can't download the correct files for ```jdtls```.
